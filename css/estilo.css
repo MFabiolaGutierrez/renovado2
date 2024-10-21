@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #060505;
+    color: #333;
+  }
+  header {
+    background-color: #420404;
+    color: #efe5e5;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 100px; /* Ajusta este valor según el tamaño deseado */
+    height: auto;
+    margin-right: 10px;
+  }
+  .logo-text {
+    font-family: "Permanent Marker", cursive;
+    font-size: 3em; /* Increased the font size further */
+    font-weight: 400;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: #bf9c9c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  main {
+    padding: 20px;
+    text-align: center; /* Center-align the content */
+  }
+  section {
+        margin-bottom: 40px; /* Espacio entre secciones */
+    }
+h2 {
+    font-size: 2.5em; /* Aumenta el tamaño del texto */
+    color: #ffffff; /* Color verde oscuro */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-family: "Permanent Marker", cursive; /* Cambia la fuente */
+}
+  .gallery-vertical {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; /* Center-align the gallery items */
+  }
+  .gallery-item {
+    box-shadow: 0 4px 8px rgba(246, 243, 243, 0.1);
+    text-align: center;
+    background-color: #561b1b;
+    padding: 10px;
+  }
+  .gallery-item img {
+    width: 200px; /* Ajusta este valor al tamaño deseado */
+    height: 300px; /* Ajusta este valor para que todas tengan la misma altura */
+    object-fit: cover; /* Asegura que las imágenes se recorten en lugar de deformarse */
+    display: block;
+    margin: 0 auto; /* Center-align images */
+}
+
+  .gallery-item p {
+    color: #e9e6e5; /* Cambia este color al que prefieras */
+    font-size: 1.2em; /* Ajusta el tamaño si deseas */
+    margin-top: 10px; /* Añade un poco de espacio arriba */
+    }
+
+  .historia-container {
+    display: flex;
+    gap: 20px;
+    background-color: #5f0c0c; /* Cambia el fondo aquí */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; /* Allows items to wrap into multiple lines */
+  }
+  .historia-item {
+    flex: 1 1 calc(33.333% - 40px); /* Three items per row, with 20px gap on either side */
+    background-color: #fefdfd;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .contactos-container {
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos */
+    background-color: #2f2f2b; /* Fondo claro */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    border-radius: 10px;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+    }
+
+    .contacto-item {
+        flex: 1; /* Asegura que los elementos ocupen espacio equitativamente */
+        min-width: 200px; /* Ancho mínimo para cada elemento */
+        padding: 20px;
+        border: 2px solid #2a2727; /* Color del borde */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        text-align: center;
+        background-color: #645757; /* Fondo blanco */
+        color: #333; /* Color del texto */
+    }
+
+    .contacto-item h3 {
+        margin-bottom: 10px;
+        color: #2b0000; /* Color del título */
+    }
+
+    .contacto-item p {
+        margin: 5px 0;
+        color: #1c1515; /* Color del texto del párrafo */
+    }
+
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  .social-icons img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+  }
